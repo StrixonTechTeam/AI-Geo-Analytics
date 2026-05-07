@@ -1,3 +1,0 @@
-/**
- * Main application JavaScript file.
- */
