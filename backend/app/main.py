@@ -11,6 +11,6 @@ app.add_middleware(
     allow_headers=["*"], #allows any request header
 )
 
-@app.get("/health")
+@app.get("/health") #creating an API endpoint/route for health
 def health_check():
     return {"status": "ok"}
